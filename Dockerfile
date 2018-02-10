@@ -1,8 +1,8 @@
 FROM ubuntu:16.04
 
-LABEL maintainer="vinh Nguyen (quangvinh68@gmail.vn)"
+LABEL maintainer="vinh Nguyen (quangvinh1225@gmail.vn)"
 
-# Base python images
+# Base php images
 # Install base packages and remove the apt packages cache when done.
 RUN apt-get update \
     && apt-get install -y \
